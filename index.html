@@ -667,98 +667,282 @@
     <p class="hero-note">14-day free trial &nbsp;·&nbsp; No credit card required &nbsp;·&nbsp; Up and running in minutes</p>
   </div>
 
-  <!-- Dashboard Mockup -->
-  <div class="dash-wrap">
-    <div class="dash-topbar">
-      <div class="dot" style="background:#ff5f57;"></div>
-      <div class="dot" style="background:#febc2e;"></div>
-      <div class="dot" style="background:#28c840;"></div>
-    </div>
-    <div class="dash-body">
-      <div class="dash-sidebar">
-        <div class="dash-sidebar-logo">firm<span>iq</span></div>
-        <div class="dash-nav-item active">
-          <div class="dash-nav-icon" style="background:#6356f5;"></div>
-          Dashboard
-        </div>
-        <div class="dash-nav-item">
-          <div class="dash-nav-icon" style="background:#374151;"></div>
-          Contacts
-        </div>
-        <div class="dash-nav-item">
-          <div class="dash-nav-icon" style="background:#374151;"></div>
-          Pipeline
-        </div>
-        <div class="dash-nav-item">
-          <div class="dash-nav-icon" style="background:#374151;"></div>
-          Proposals
-        </div>
-        <div class="dash-nav-item">
-          <div class="dash-nav-icon" style="background:#374151;"></div>
-          Invoices
-        </div>
-        <div class="dash-nav-item">
-          <div class="dash-nav-icon" style="background:#374151;"></div>
-          Tasks
-        </div>
-      </div>
-      <div class="dash-main">
-        <div class="dash-metrics">
-          <div class="metric">
-            <div class="metric-val">24</div>
-            <div class="metric-lbl">Open deals</div>
-            <div class="metric-bar" style="background:#6356f5;width:70%;"></div>
-          </div>
-          <div class="metric">
-            <div class="metric-val">$48k</div>
-            <div class="metric-lbl">Pipeline value</div>
-            <div class="metric-bar" style="background:#0ea5a5;width:55%;"></div>
-          </div>
-          <div class="metric">
-            <div class="metric-val">$12k</div>
-            <div class="metric-lbl">Invoiced this month</div>
-            <div class="metric-bar" style="background:#f59e0b;width:40%;"></div>
-          </div>
-          <div class="metric">
-            <div class="metric-val">6</div>
-            <div class="metric-lbl">Tasks due today</div>
-            <div class="metric-bar" style="background:#f43f5e;width:25%;"></div>
-          </div>
-        </div>
-        <div class="dash-row">
-          <div class="dash-card">
-            <div class="dash-card-title">Pipeline by Stage</div>
-            <div class="pipeline-stage">
-              <div class="stage-label"><div class="stage-dot" style="background:#6356f5;"></div>Prospect</div>
-              <div class="stage-bar-wrap"><div class="stage-bar" style="background:#6356f5;width:80%;"></div></div>
-              <div class="stage-val">$18k</div>
-            </div>
-            <div class="pipeline-stage">
-              <div class="stage-label"><div class="stage-dot" style="background:#0ea5a5;"></div>Proposal</div>
-              <div class="stage-bar-wrap"><div class="stage-bar" style="background:#0ea5a5;width:55%;"></div></div>
-              <div class="stage-val">$14k</div>
-            </div>
-            <div class="pipeline-stage">
-              <div class="stage-label"><div class="stage-dot" style="background:#f59e0b;"></div>Negotiation</div>
-              <div class="stage-bar-wrap"><div class="stage-bar" style="background:#f59e0b;width:35%;"></div></div>
-              <div class="stage-val">$9k</div>
-            </div>
-            <div class="pipeline-stage">
-              <div class="stage-label"><div class="stage-dot" style="background:#10b981;"></div>Won</div>
-              <div class="stage-bar-wrap"><div class="stage-bar" style="background:#10b981;width:20%;"></div></div>
-              <div class="stage-val">$7k</div>
-            </div>
-          </div>
-          <div class="dash-card">
-            <div class="dash-card-title">Tasks Due Today</div>
-            <div class="task-item"><div class="task-check done"></div>Follow up — Heritage Floors<span class="task-badge" style="background:#dcfce7;color:#15803d;">Done</span></div>
-            <div class="task-item"><div class="task-check"></div>Send proposal — J&D Enterprise<span class="task-badge" style="background:#fef3c7;color:#92400e;">Due</span></div>
-            <div class="task-item"><div class="task-check"></div>Review contract — Dawn Sykes<span class="task-badge" style="background:#fef3c7;color:#92400e;">Due</span></div>
-            <div class="task-item"><div class="task-check"></div>Invoice — Food for Heart LLC<span class="task-badge" style="background:#ffe4e6;color:#9f1239;">Late</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- Hero Illustration -->
+  <div style="max-width:900px;margin:56px auto 0;border-radius:24px;overflow:hidden;box-shadow:0 16px 64px rgba(99,86,245,0.15);background:linear-gradient(180deg,#dbeafe 0%,#eff6ff 60%,#f0fdf4 100%);">
+    <svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+
+      <!-- Sky gradient -->
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#bfdbfe"/>
+          <stop offset="100%" stop-color="#eff6ff"/>
+        </linearGradient>
+        <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#86efac"/>
+          <stop offset="100%" stop-color="#4ade80"/>
+        </linearGradient>
+        <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#94a3b8"/>
+          <stop offset="100%" stop-color="#64748b"/>
+        </linearGradient>
+        <linearGradient id="truckbody" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#6356f5"/>
+          <stop offset="100%" stop-color="#4f44d4"/>
+        </linearGradient>
+        <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#e2e8f0"/>
+          <stop offset="100%" stop-color="#cbd5e1"/>
+        </linearGradient>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+          <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="rgba(0,0,0,0.12)"/>
+        </filter>
+      </defs>
+
+      <!-- Sky -->
+      <rect width="900" height="420" fill="url(#sky)"/>
+
+      <!-- Sun -->
+      <circle cx="820" cy="70" r="44" fill="#fde68a" opacity="0.9"/>
+      <circle cx="820" cy="70" r="34" fill="#fbbf24"/>
+
+      <!-- Clouds -->
+      <g opacity="0.85">
+        <ellipse cx="120" cy="80" rx="60" ry="28" fill="white"/>
+        <ellipse cx="80" cy="88" rx="40" ry="22" fill="white"/>
+        <ellipse cx="158" cy="88" rx="38" ry="20" fill="white"/>
+      </g>
+      <g opacity="0.75">
+        <ellipse cx="580" cy="60" rx="50" ry="22" fill="white"/>
+        <ellipse cx="548" cy="68" rx="34" ry="18" fill="white"/>
+        <ellipse cx="612" cy="66" rx="30" ry="16" fill="white"/>
+      </g>
+
+      <!-- Ground / grass -->
+      <rect x="0" y="320" width="900" height="100" fill="url(#grass)"/>
+
+      <!-- Road -->
+      <rect x="0" y="355" width="900" height="65" fill="url(#road)"/>
+      <!-- Road center line dashes -->
+      <rect x="0"   y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="120" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="240" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="360" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="480" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="600" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="720" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+      <rect x="840" y="386" width="80" height="6" rx="3" fill="white" opacity="0.5"/>
+
+      <!-- Sidewalk -->
+      <rect x="0" y="340" width="900" height="18" fill="#e2e8f0"/>
+
+      <!-- ═══════════ HOUSE ═══════════ -->
+      <g filter="url(#shadow)">
+        <!-- Main house body -->
+        <rect x="480" y="185" width="340" height="158" rx="4" fill="#fef9ee"/>
+        <!-- Brick texture lines -->
+        <rect x="480" y="200" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="218" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="236" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="254" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="272" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="290" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="308" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+        <rect x="480" y="326" width="340" height="2" fill="#f3e8c8" opacity="0.6"/>
+
+        <!-- Roof -->
+        <polygon points="465,188 650,105 835,188" fill="#dc2626"/>
+        <polygon points="465,188 650,105 835,188" fill="none" stroke="#b91c1c" stroke-width="2"/>
+        <!-- Roof ridge -->
+        <line x1="465" y1="188" x2="835" y2="188" stroke="#b91c1c" stroke-width="3"/>
+        <!-- Chimney -->
+        <rect x="740" y="115" width="30" height="60" fill="#9ca3af"/>
+        <rect x="736" y="110" width="38" height="10" rx="2" fill="#6b7280"/>
+        <!-- Chimney smoke puffs -->
+        <circle cx="755" cy="100" r="8" fill="white" opacity="0.7"/>
+        <circle cx="763" cy="88" r="7" fill="white" opacity="0.5"/>
+        <circle cx="758" cy="78" r="5" fill="white" opacity="0.3"/>
+
+        <!-- Front door -->
+        <rect x="617" y="260" width="66" height="83" rx="4" fill="#92400e"/>
+        <rect x="617" y="260" width="66" height="83" rx="4" fill="none" stroke="#78350f" stroke-width="2"/>
+        <!-- Door arch top -->
+        <path d="M617,264 Q650,240 683,264" fill="#92400e" stroke="#78350f" stroke-width="2"/>
+        <!-- Door window panel -->
+        <rect x="628" y="272" width="44" height="28" rx="3" fill="#fbbf24" opacity="0.4"/>
+        <!-- Door knob -->
+        <circle cx="676" cy="302" r="4" fill="#d97706"/>
+
+        <!-- Windows left -->
+        <rect x="500" y="215" width="76" height="58" rx="4" fill="#bae6fd"/>
+        <rect x="500" y="215" width="76" height="58" rx="4" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="538" y1="215" x2="538" y2="273" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="500" y1="244" x2="576" y2="244" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Window reflection -->
+        <rect x="504" y="219" width="15" height="10" rx="2" fill="white" opacity="0.5"/>
+
+        <!-- Windows right -->
+        <rect x="720" y="215" width="76" height="58" rx="4" fill="#bae6fd"/>
+        <rect x="720" y="215" width="76" height="58" rx="4" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="758" y1="215" x2="758" y2="273" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="720" y1="244" x2="796" y2="244" stroke="#cbd5e1" stroke-width="2"/>
+        <rect x="724" y="219" width="15" height="10" rx="2" fill="white" opacity="0.5"/>
+
+        <!-- Garage door -->
+        <rect x="480" y="280" width="110" height="63" rx="4" fill="#e2e8f0"/>
+        <rect x="480" y="280" width="110" height="63" rx="4" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Garage panels -->
+        <line x1="480" y1="301" x2="590" y2="301" stroke="#cbd5e1" stroke-width="1.5"/>
+        <line x1="480" y1="322" x2="590" y2="322" stroke="#cbd5e1" stroke-width="1.5"/>
+        <line x1="535" y1="280" x2="535" y2="343" stroke="#cbd5e1" stroke-width="1.5"/>
+        <!-- Garage handle -->
+        <rect x="522" y="338" width="26" height="4" rx="2" fill="#94a3b8"/>
+
+        <!-- Porch step -->
+        <rect x="597" y="338" width="106" height="8" rx="2" fill="#e2e8f0"/>
+        <rect x="604" y="332" width="92" height="8" rx="2" fill="#f1f5f9"/>
+
+        <!-- Mailbox post -->
+        <rect x="828" y="308" width="6" height="36" fill="#92400e"/>
+        <rect x="820" y="300" width="22" height="14" rx="3" fill="#6b7280"/>
+        <rect x="820" y="300" width="22" height="8" rx="3" fill="#78716c"/>
+
+        <!-- Flower bushes -->
+        <ellipse cx="500" cy="342" rx="22" ry="12" fill="#4ade80"/>
+        <circle cx="492" cy="337" r="5" fill="#f472b6"/>
+        <circle cx="502" cy="334" r="5" fill="#fb923c"/>
+        <circle cx="512" cy="337" r="5" fill="#f472b6"/>
+
+        <ellipse cx="800" cy="342" rx="22" ry="12" fill="#4ade80"/>
+        <circle cx="792" cy="337" r="5" fill="#facc15"/>
+        <circle cx="802" cy="334" r="5" fill="#f472b6"/>
+        <circle cx="812" cy="337" r="5" fill="#facc15"/>
+      </g>
+
+      <!-- ═══════════ WORK TRUCK ═══════════ -->
+      <g filter="url(#shadow)" transform="translate(30, 220)">
+        <!-- Truck bed / cargo box -->
+        <rect x="22" y="72" width="178" height="82" rx="5" fill="#4f44d4"/>
+        <!-- Truck bed interior -->
+        <rect x="28" y="78" width="166" height="68" rx="3" fill="#6356f5"/>
+        <!-- Bed ridges -->
+        <line x1="28" y1="96" x2="194" y2="96" stroke="#4f44d4" stroke-width="2" opacity="0.5"/>
+        <line x1="28" y1="114" x2="194" y2="114" stroke="#4f44d4" stroke-width="2" opacity="0.5"/>
+        <line x1="28" y1="132" x2="194" y2="132" stroke="#4f44d4" stroke-width="2" opacity="0.5"/>
+        <!-- Firmiq logo on truck bed -->
+        <rect x="70" y="88" width="80" height="28" rx="4" fill="white" opacity="0.15"/>
+        <text x="110" y="107" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="white" opacity="0.9">firmiq</text>
+
+        <!-- Truck cab -->
+        <rect x="180" y="50" width="190" height="104" rx="8" fill="url(#truckbody)"/>
+
+        <!-- Cab roof curve -->
+        <path d="M188,50 Q230,20 310,18 Q355,17 368,50" fill="#5b50f0"/>
+
+        <!-- Windshield -->
+        <path d="M195,50 Q235,26 310,24 Q350,23 362,50 Z" fill="#bae6fd" opacity="0.85"/>
+        <!-- Windshield reflection -->
+        <path d="M205,47 Q235,33 290,30" stroke="white" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+        <!-- Side window -->
+        <rect x="310" y="58" width="50" height="34" rx="4" fill="#bae6fd" opacity="0.8"/>
+        <rect x="310" y="58" width="50" height="34" rx="4" fill="none" stroke="#93c5fd" stroke-width="1.5"/>
+
+        <!-- Cab door line -->
+        <line x1="305" y1="52" x2="305" y2="154" stroke="#4338ca" stroke-width="2" opacity="0.6"/>
+
+        <!-- Door handle -->
+        <rect x="320" y="110" width="22" height="6" rx="3" fill="#a5b4fc"/>
+
+        <!-- Headlight -->
+        <rect x="362" y="90" width="10" height="22" rx="3" fill="#fef08a"/>
+        <rect x="362" y="90" width="10" height="22" rx="3" fill="none" stroke="#fbbf24" stroke-width="1"/>
+
+        <!-- Front bumper -->
+        <rect x="364" y="130" width="16" height="24" rx="4" fill="#374151"/>
+
+        <!-- Side mirror -->
+        <rect x="368" y="64" width="16" height="10" rx="3" fill="#374151"/>
+        <rect x="374" y="60" width="4" height="8" rx="2" fill="#374151"/>
+
+        <!-- Wheels -->
+        <!-- Front wheel -->
+        <circle cx="330" cy="162" r="32" fill="#1e293b"/>
+        <circle cx="330" cy="162" r="24" fill="#334155"/>
+        <circle cx="330" cy="162" r="14" fill="#94a3b8"/>
+        <circle cx="330" cy="162" r="6" fill="#cbd5e1"/>
+        <!-- Wheel bolts -->
+        <circle cx="330" cy="148" r="3" fill="#64748b"/>
+        <circle cx="344" cy="162" r="3" fill="#64748b"/>
+        <circle cx="330" cy="176" r="3" fill="#64748b"/>
+        <circle cx="316" cy="162" r="3" fill="#64748b"/>
+
+        <!-- Rear wheel -->
+        <circle cx="80" cy="162" r="32" fill="#1e293b"/>
+        <circle cx="80" cy="162" r="24" fill="#334155"/>
+        <circle cx="80" cy="162" r="14" fill="#94a3b8"/>
+        <circle cx="80" cy="162" r="6" fill="#cbd5e1"/>
+        <circle cx="80" cy="148" r="3" fill="#64748b"/>
+        <circle cx="94" cy="162" r="3" fill="#64748b"/>
+        <circle cx="80" cy="176" r="3" fill="#64748b"/>
+        <circle cx="66" cy="162" r="3" fill="#64748b"/>
+
+        <!-- Dual rear wheel hint -->
+        <circle cx="55" cy="164" r="28" fill="#1e293b" opacity="0.7"/>
+        <circle cx="55" cy="164" r="20" fill="#334155" opacity="0.7"/>
+
+        <!-- Exhaust pipe -->
+        <rect x="18" y="140" width="20" height="6" rx="3" fill="#374151"/>
+        <!-- Exhaust puff -->
+        <circle cx="12" cy="143" r="6" fill="#e2e8f0" opacity="0.5"/>
+        <circle cx="6" cy="140" r="4" fill="#e2e8f0" opacity="0.3"/>
+
+        <!-- Toolbox on bed -->
+        <rect x="140" y="62" width="56" height="22" rx="4" fill="#374151"/>
+        <rect x="140" y="62" width="56" height="10" rx="4" fill="#4b5563"/>
+        <rect x="158" y="68" width="20" height="4" rx="2" fill="#6b7280"/>
+
+        <!-- Step bars under cab -->
+        <rect x="196" y="148" width="40" height="6" rx="3" fill="#374151"/>
+        <rect x="248" y="148" width="40" height="6" rx="3" fill="#374151"/>
+
+      </g>
+
+      <!-- Trees -->
+      <!-- Left tree -->
+      <rect x="428" y="280" width="12" height="65" fill="#92400e"/>
+      <ellipse cx="434" cy="268" rx="30" ry="36" fill="#16a34a"/>
+      <ellipse cx="420" cy="280" rx="20" ry="24" fill="#15803d"/>
+      <ellipse cx="448" cy="276" rx="20" ry="26" fill="#22c55e"/>
+
+      <!-- Floating info cards -->
+      <!-- Card 1: New client -->
+      <g filter="url(#shadow)">
+        <rect x="28" y="30" width="160" height="56" rx="10" fill="white"/>
+        <circle cx="52" cy="58" r="14" fill="#ede9fe"/>
+        <text x="52" y="63" text-anchor="middle" font-size="14">🏠</text>
+        <text x="74" y="50" font-family="'Plus Jakarta Sans',sans-serif" font-size="10" font-weight="700" fill="#1e293b">New Client</text>
+        <text x="74" y="65" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="800" fill="#6356f5">Heritage Floors</text>
+      </g>
+
+      <!-- Card 2: Invoice sent -->
+      <g filter="url(#shadow)">
+        <rect x="680" y="25" width="168" height="56" rx="10" fill="white"/>
+        <circle cx="704" cy="53" r="14" fill="#d1fae5"/>
+        <text x="704" y="58" text-anchor="middle" font-size="14">✅</text>
+        <text x="726" y="44" font-family="'Plus Jakarta Sans',sans-serif" font-size="10" font-weight="700" fill="#1e293b">Invoice Sent</text>
+        <text x="726" y="60" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="800" fill="#16a34a">$4,800 · Paid</text>
+      </g>
+
+      <!-- Card 3: Deal won -->
+      <g filter="url(#shadow)">
+        <rect x="362" y="100" width="158" height="56" rx="10" fill="white"/>
+        <circle cx="386" cy="128" r="14" fill="#fef3c7"/>
+        <text x="386" y="133" text-anchor="middle" font-size="14">🎉</text>
+        <text x="408" y="118" font-family="'Plus Jakarta Sans',sans-serif" font-size="10" font-weight="700" fill="#1e293b">Deal Won</text>
+        <text x="408" y="134" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="800" fill="#d97706">+$12,500</text>
+      </g>
+
+    </svg>
   </div>
 </section>
 
